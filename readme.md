@@ -2,7 +2,7 @@
 
 A deep-dive into Netflix's global content using SQL to uncover trends, audience preferences, and content strategies.
 
-> 💻 Powered by: MySQL • PostgreSQL • SQL Server (choose your DB flavor)
+> 💻 Powered by: MySQL •  SQL Server 
 ![NetFlix](visuals/logo.png)
 
 ---
