@@ -29,15 +29,14 @@ In this project, I used raw SQL queries to explore and analyze the Netflix conte
 |-------------|-------------------------------|
 | SQL         | Data exploration & analysis   |
 | MySQL       | Query execution               |
-| Excel/Power BI (Optional) | Visualization   |
+| Excel/Power | Visualization   |
 
 ---
 
 ## 🚀 Project Highlights
 
 - 🧹 Cleaned raw data using SQL queries (`IS NULL`, `TRIM()`, `CASE WHEN`)
-- 🔍 Wrote 20+ analytical queries for insights
-- 📈 Visualized findings using [insert tool if applicable]
+- 🔍 Wrote 15+ analytical queries for insights
 - 🔗 Used `GROUP BY`, `ORDER BY`, `LIMIT`, window functions, and joins to extract insights
 ![Group by Genre](visuals/Screenshot%20(536).png)
 
