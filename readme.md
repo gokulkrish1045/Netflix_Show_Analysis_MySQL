@@ -39,6 +39,7 @@ In this project, I used raw SQL queries to explore and analyze the Netflix conte
 - 🔍 Wrote 20+ analytical queries for insights
 - 📈 Visualized findings using [insert tool if applicable]
 - 🔗 Used `GROUP BY`, `ORDER BY`, `LIMIT`, window functions, and joins to extract insights
+![Group by Genre](visuals/Screenshot%(536).png)
 
 ---
 
