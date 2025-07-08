@@ -50,6 +50,6 @@ netflix-sql-analysis/
 ├── data/
 │   └── netflix_titles.csv
 ├── SQL/
-│   └── query_results.xlsx  # Optional
+│   └── Solutions of 15 business problems.sql  # Optional
 ├── visuals/
 │   └── genre_trends.png    # Optional
