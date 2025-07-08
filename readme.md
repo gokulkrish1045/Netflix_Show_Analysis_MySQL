@@ -1,58 +1,55 @@
-# 🎬 Netflix Movies & TV Shows Analysis
+# 🍿 Netflix Movies & TV Shows — SQL Analysis
 
-Explore patterns in Netflix's global catalog of movies and series — from genre trends to content release strategy and country-wise distribution.
+A deep-dive into Netflix's global content using SQL to uncover trends, audience preferences, and content strategies.
 
-> 🔍 Tools Used: Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
-
+> 💻 Powered by: MySQL • PostgreSQL • SQL Server (choose your DB flavor)
 ![NetFlix](visuals/logo.png)
 
 ---
 
-## 📦 Project Overview
+## 📌 Project Overview
 
-This project analyzes the Netflix dataset to uncover:
-
-- 🌍 Country-wise content distribution
-- 📈 Content release trends over the years
-- 🎭 Popular genres and content types
-- 🕵️‍♂️ Hidden patterns like title duplications, director presence, and more
+In this project, I used raw SQL queries to explore and analyze the Netflix content catalog — understanding release trends, genre popularity, and country-wise content distribution.
 
 ---
 
-## 🧠 Objectives
+## 🧠 Business Questions Answered
 
-- Perform data cleaning and preprocessing
-- Analyze trends and visualize insights
-- Answer key business questions through EDA
-
----
-
-## 🛠️ Tech Stack
-
-| Tool       | Purpose                  |
-|------------|--------------------------|
-| Python     | Core scripting           |
-| Pandas     | Data manipulation        |
-| Seaborn    | Data visualization       |
-| Matplotlib | Plotting trends          |
-| Jupyter    | Interactive development  |
+- 📅 How has content production changed over time?
+- 🌍 Which countries produce the most content on Netflix?
+- 🎭 What are the most popular genres?
+- 📺 Ratio of Movies vs TV Shows
+- 🕒 Trends in content duration (runtime patterns)
 
 ---
 
-## 📸 Project Snapshots
+## 🧰 Tech Stack
 
-![Genre Distribution](visuals/genre_distribution.png)
-*Distribution of most common genres across Netflix titles*
-
-![Release Trends](visuals/release_trends.png)
-*Content release trend over the years*
+| Tool        | Usage                         |
+|-------------|-------------------------------|
+| SQL         | Data exploration & analysis   |
+| MySQL       | Query execution               |
+| Excel/Power BI (Optional) | Visualization   |
 
 ---
 
-## 💡 Key Insights
+## 🚀 Project Highlights
 
-- 📺 TV Shows have grown rapidly since 2015
-- 🇺🇸 USA has the highest number of titles, followed by India
-- 🎬 Drama & Comedy are the most dominant genres
-- 🚫 Missing director info is common in TV shows
+- 🧹 Cleaned raw data using SQL queries (`IS NULL`, `TRIM()`, `CASE WHEN`)
+- 🔍 Wrote 20+ analytical queries for insights
+- 📈 Visualized findings using [insert tool if applicable]
+- 🔗 Used `GROUP BY`, `ORDER BY`, `LIMIT`, window functions, and joins to extract insights
 
+---
+
+## 📂 Folder Structure
+
+```bash
+netflix-sql-analysis/
+├── README.md
+├── data/
+│   └── netflix_titles.csv
+├── SQL/
+│   └── query_results.xlsx  # Optional
+├── visuals/
+│   └── genre_trends.png    # Optional
