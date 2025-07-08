@@ -4,6 +4,8 @@ Explore patterns in Netflix's global catalog of movies and series — from genre
 
 > 🔍 Tools Used: Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
 
+![NetFlix](visuals/logo.png)
+
 ---
 
 ## 📦 Project Overview
